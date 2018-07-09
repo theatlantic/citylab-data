@@ -6,4 +6,4 @@ Except where noted, all data here is under the the [Creative Commons Attribution
 
 Date | Article | Folder
 ---|---------|-------------
-July 3, 2018 | "The Spike in Air Pollution From July 4 Fireworks, Visualized" | `fireworks-pollution`
+July 3, 2018 | ["The Spike in Air Pollution From July 4 Fireworks, Visualized"](https://www.citylab.com/environment/2018/07/the-spike-in-air-pollution-from-july-4-fireworks-visualized/564368/) | [`fireworks-pollution`](https://github.com/theatlantic/citylab-data/tree/master/fireworks-pollution)
