@@ -1,0 +1,436 @@
+CD,Incumbent,PVI,cook_rating,cook_score
+AZ-01,Tom O'Halleran,R+2,Likely D,-2
+CA-07,Ami Bera,D+3,Likely D,-2
+CA-16,Jim Costa,D+9,Likely D,-2
+FL-07,Stephanie Murphy,EVEN,Likely D,-2
+MN-07,Collin Peterson,R+12,Likely D,-2
+NH-01,Open,R+2,Likely D,-2
+NJ-02,Open,R+1,Likely D,-2
+NJ-05,Josh Gottheimer,R+3,Likely D,-2
+NV-04,Open,D+3,Likely D,-2
+PA-05,Vacant,D+13,Likely D,-2
+PA-06,Open,D+2,Likely D,-2
+PA-08,Matthew Cartwright,R+1,Likely D,-2
+PA-17,Keith Rothfus,R+3,Likely D,-2
+AZ-02,Open,R+1,Lean D,-1
+CA-49,Open,R+1,Lean D,-1
+CO-06,Mike Coffman,D+2,Lean D,-1
+IA-01,Rod Blum,D+1,Lean D,-1
+KS-03,Kevin Yoder,R+4,Lean D,-1
+MI-11,Open,R+4,Lean D,-1
+MN-02,Jason Lewis,R+2,Lean D,-1
+MN-03,Erik Paulsen,D+1,Lean D,-1
+NJ-11,Open,R+3,Lean D,-1
+NV-03,Open,R+2,Lean D,-1
+PA-07,Vacant,D+1,Lean D,-1
+VA-10,Barbara Comstock,D+1,Lean D,-1
+MN-01,Open,R+5,Tossup,0
+MN-08,Open,R+4,Tossup,0
+CA-10,Jeff Denham,EVEN,Tossup,0
+CA-25,Steve Knight,EVEN,Tossup,0
+CA-39,Open,EVEN,Tossup,0
+CA-45,Mimi Walters,R+3,Tossup,0
+CA-48,Dana Rohrabacher,R+4,Tossup,0
+FL-26,Carlos Curbelo,D+6,Tossup,0
+FL-27,Open,D+5,Tossup,0
+IA-03,David Young,R+1,Tossup,0
+IL-06,Peter Roskam,R+2,Tossup,0
+IL-12,Mike Bost,R+5,Tossup,0
+KS-02,Open,R+10,Tossup,0
+KY-06,Andy Barr,R+9,Tossup,0
+ME-02,Bruce Poliquin,R+2,Tossup,0
+MI-08,Mike Bishop,R+4,Tossup,0
+NC-09,Open,R+7,Tossup,0
+NC-13,Ted Budd,R+6,Tossup,0
+NJ-03,Tom MacArthur,R+2,Tossup,0
+NJ-07,Leonard Lance,R+3,Tossup,0
+NM-02,Open,R+6,Tossup,0
+NY-19,John Faso,R+2,Tossup,0
+NY-22,Claudia Tenney,R+6,Tossup,0
+OH-01,Steve Chabot,R+5,Tossup,0
+PA-01,Brian Fitzpatrick,R+1,Tossup,0
+TX-07,John Culberson,R+7,Tossup,0
+TX-32,Pete Sessions,R+5,Tossup,0
+UT-04,Mia Love,R+13,Tossup,0
+VA-02,Scott Taylor,R+3,Tossup,0
+VA-07,David Brat,R+6,Tossup,0
+WA-08,Open,EVEN,Tossup,0
+AR-02,French Hill,R+7,Lean R,1
+CA-50,Duncan Hunter,R+11,Lean R,1
+FL-15,Open,R+6,Lean R,1
+FL-16,Vern Buchanan,R+7,Lean R,1
+GA-06,Karen Handel,R+8,Lean R,1
+GA-07,Rob Woodall,R+9,Lean R,1
+IL-13,Rodney Davis,R+3,Lean R,1
+IL-14,Randy Hultgren,R+5,Lean R,1
+MO-02,Ann Wagner,R+8,Lean R,1
+MT-00,Greg Gianforte,R+11,Lean R,1
+NC-02,George Holding,R+6,Lean R,1
+NE-02,Don Bacon,R+4,Lean R,1
+NY-24,John Katko,D+3,Lean R,1
+NY-27,Chris Collins,R+11,Lean R,1
+OH-12,Troy Balderson,R+7,Lean R,1
+PA-10,Scott Perry,R+6,Lean R,1
+PA-16,Mike Kelly,R+8,Lean R,1
+SC-01,Open,R+10,Lean R,1
+TX-23,Will Hurd,R+1,Lean R,1
+TX-31,John Carter,R+10,Lean R,1
+VA-05,Open,R+6,Lean R,1
+WA-03,Jaime Herrera Beutler,R+4,Lean R,1
+WA-05,Cathy McMorris Rodgers,R+8,Lean R,1
+WI-01,Open,R+5,Lean R,1
+WV-03,Open,R+23,Lean R,1
+AK-00,Don Young,R+9,Likely R,2
+AZ-06,David Schweikert,R+9,Likely R,2
+CA-04,Tom McClintock,R+10,Likely R,2
+CA-21,David Valadao,D+5,Likely R,2
+CO-03,Scott Tipton,R+6,Likely R,2
+FL-06,Open,R+7,Likely R,2
+FL-18,Brian Mast,R+5,Likely R,2
+FL-25,Mario Diaz-Balart,R+4,Likely R,2
+IA-04,Steve King,R+11,Likely R,2
+IN-02,Jackie Walorski,R+11,Likely R,2
+MI-01,Jack Bergman,R+9,Likely R,2
+MI-03,Justin Amash,R+6,Likely R,2
+MI-06,Fred Upton,R+4,Likely R,2
+MI-07,Tim Walberg,R+7,Likely R,2
+NC-08,Richard Hudson,R+8,Likely R,2
+NY-01,Lee Zeldin,R+5,Likely R,2
+NY-02,Peter King,R+3,Likely R,2
+NY-11,Daniel Donovan,R+3,Likely R,2
+NY-21,Elise Stefanik,R+4,Likely R,2
+OH-10,Michael Turner,R+4,Likely R,2
+OH-14,David Joyce,R+5,Likely R,2
+PA-14,Open,R+14,Likely R,2
+TX-02,Open,R+11,Likely R,2
+TX-21,Open,R+10,Likely R,2
+TX-22,Pete Olson,R+10,Likely R,2
+TX-24,Kenny Marchant,R+9,Likely R,2
+WI-06,Glenn Grothman,R+8,Likely R,2
+AL-07,Terri Sewell,D+20,Solid D,-3
+AZ-03,Ra£l Grijalva,D+13,Solid D,-3
+AZ-07,Ruben Gallego,D+23,Solid D,-3
+AZ-09,Open,D+4,Solid D,-3
+CA-02,Jared Huffman,D+22,Solid D,-3
+CA-03,John Garamendi,D+5,Solid D,-3
+CA-05,Mike Thompson,D+21,Solid D,-3
+CA-06,Doris Matsui,D+21,Solid D,-3
+CA-09,Jerry McNerney,D+8,Solid D,-3
+CA-11,Mark DeSaulnier,D+21,Solid D,-3
+CA-12,Nancy Pelosi,D+37,Solid D,-3
+CA-13,Barbara Lee,D+40,Solid D,-3
+CA-14,Jackie Speier,D+27,Solid D,-3
+CA-15,Eric Swalwell,D+20,Solid D,-3
+CA-17,Ro Khanna,D+25,Solid D,-3
+CA-18,Anna Eshoo,D+23,Solid D,-3
+CA-19,Zoe Lofgren,D+24,Solid D,-3
+CA-20,Jimmy Panetta,D+23,Solid D,-3
+CA-24,Salud Carbajal,D+7,Solid D,-3
+CA-26,Julia Brownley,D+7,Solid D,-3
+CA-27,Judy Chu,D+16,Solid D,-3
+CA-28,Adam Schiff,D+23,Solid D,-3
+CA-29,Tony C rdenas,D+29,Solid D,-3
+CA-30,Brad Sherman,D+18,Solid D,-3
+CA-31,Pete Aguilar,D+8,Solid D,-3
+CA-32,Grace Napolitano,D+17,Solid D,-3
+CA-33,Ted Lieu,D+16,Solid D,-3
+CA-34,Jimmy Gomez,D+35,Solid D,-3
+CA-35,Norma Torres,D+19,Solid D,-3
+CA-36,Raul Ruiz,D+2,Solid D,-3
+CA-37,Karen Bass,D+37,Solid D,-3
+CA-38,Linda S nchez,D+17,Solid D,-3
+CA-40,Lucille Roybal-Allard,D+33,Solid D,-3
+CA-41,Mark Takano,D+12,Solid D,-3
+CA-43,Maxine Waters,D+29,Solid D,-3
+CA-44,Nanette Barragan,D+35,Solid D,-3
+CA-46,Lou Correa,D+15,Solid D,-3
+CA-47,Alan Lowenthal,D+13,Solid D,-3
+CA-51,Juan Vargas,D+22,Solid D,-3
+CA-52,Scott Peters,D+6,Solid D,-3
+CA-53,Susan Davis,D+14,Solid D,-3
+CO-01,Diana DeGette,D+21,Solid D,-3
+CO-02,Open,D+9,Solid D,-3
+CO-07,Ed Perlmutter,D+6,Solid D,-3
+CT-01,John Larson,D+12,Solid D,-3
+CT-02,Joe Courtney,D+3,Solid D,-3
+CT-03,Rosa DeLauro,D+9,Solid D,-3
+CT-04,Jim Himes,D+7,Solid D,-3
+CT-05,Open,D+2,Solid D,-3
+DE-00,Lisa Blunt Rochester,D+6,Solid D,-3
+FL-05,Al Lawson,D+12,Solid D,-3
+FL-09,Darren Soto,D+5,Solid D,-3
+FL-10,Val Demings,D+11,Solid D,-3
+FL-13,Charlie Crist,D+2,Solid D,-3
+FL-14,Kathy Castor,D+7,Solid D,-3
+FL-20,Alcee Hastings,D+31,Solid D,-3
+FL-21,Lois Frankel,D+9,Solid D,-3
+FL-22,Ted Deutch,D+6,Solid D,-3
+FL-23,Debbie Wasserman Schultz,D+11,Solid D,-3
+FL-24,Frederica Wilson,D+34,Solid D,-3
+GA-02,Sanford Bishop,D+6,Solid D,-3
+GA-04,Henry Johnson,D+24,Solid D,-3
+GA-05,John Lewis,D+34,Solid D,-3
+GA-13,David Scott,D+20,Solid D,-3
+HI-01,Open,D+17,Solid D,-3
+HI-02,Tulsi Gabbard,D+19,Solid D,-3
+IA-02,David Loebsack,D+1,Solid D,-3
+IL-01,Bobby Rush,D+27,Solid D,-3
+IL-02,Robin Kelly,D+29,Solid D,-3
+IL-03,Daniel Lipinski,D+6,Solid D,-3
+IL-04,Open,D+33,Solid D,-3
+IL-05,Mike Quigley,D+20,Solid D,-3
+IL-07,Danny Davis,D+38,Solid D,-3
+IL-08,Raja Krishnamoorthi,D+8,Solid D,-3
+IL-09,Janice Schakowsky,D+18,Solid D,-3
+IL-10,Bradley Schneider,D+10,Solid D,-3
+IL-11,Bill Foster,D+9,Solid D,-3
+IL-17,Cheri Bustos,D+2,Solid D,-3
+IN-01,Peter Visclosky,D+8,Solid D,-3
+IN-07,Andr‚ Carson,D+11,Solid D,-3
+KY-03,John Yarmuth,D+6,Solid D,-3
+LA-02,Cedric Richmond,D+25,Solid D,-3
+MA-01,Richard Neal,D+12,Solid D,-3
+MA-02,James McGovern,D+9,Solid D,-3
+MA-03,Open,D+9,Solid D,-3
+MA-04,Joseph Kennedy,D+9,Solid D,-3
+MA-05,Katherine Clark,D+18,Solid D,-3
+MA-06,Seth Moulton,D+6,Solid D,-3
+MA-07,Open,D+34,Solid D,-3
+MA-08,Stephen Lynch,D+10,Solid D,-3
+MA-09,Bill Keating,D+4,Solid D,-3
+MD-02,Dutch Ruppersberger,D+11,Solid D,-3
+MD-03,John Sarbanes,D+13,Solid D,-3
+MD-04,Anthony Brown,D+28,Solid D,-3
+MD-05,Steny Hoyer,D+16,Solid D,-3
+MD-06,Open,D+6,Solid D,-3
+MD-07,Elijah Cummings,D+26,Solid D,-3
+MD-08,Jamie Raskin,D+14,Solid D,-3
+ME-01,Chellie Pingree,D+8,Solid D,-3
+MI-05,Daniel Kildee,D+5,Solid D,-3
+MI-09,Open,D+4,Solid D,-3
+MI-12,Debbie Dingell,D+14,Solid D,-3
+MI-13,Vacant,D+32,Solid D,-3
+MI-14,Brenda Lawrence,D+30,Solid D,-3
+MN-04,Betty McCollum,D+14,Solid D,-3
+MN-05,Open,D+26,Solid D,-3
+MO-01,Lacy Clay,D+29,Solid D,-3
+MO-05,Emanuel Cleaver,D+7,Solid D,-3
+MS-02,Bennie Thompson,D+14,Solid D,-3
+NC-01,George Butterfield,D+17,Solid D,-3
+NC-04,David Price,D+16,Solid D,-3
+NC-12,Alma Adams,D+18,Solid D,-3
+NH-02,Ann Kuster,D+2,Solid D,-3
+NJ-01,Donald Norcross,D+13,Solid D,-3
+NJ-06,Frank Pallone,D+9,Solid D,-3
+NJ-08,Albio Sires,D+27,Solid D,-3
+NJ-09,Bill Pascrell,D+16,Solid D,-3
+NJ-10,Donald Payne,D+36,Solid D,-3
+NJ-12,Bonnie Watson Coleman,D+16,Solid D,-3
+NM-01,Open,D+7,Solid D,-3
+NM-03,Ben Luj n,D+8,Solid D,-3
+NV-01,Dina Titus,D+15,Solid D,-3
+NY-03,Thomas Suozzi,D+1,Solid D,-3
+NY-04,Kathleen Rice,D+4,Solid D,-3
+NY-05,Gregory Meeks,D+37,Solid D,-3
+NY-06,Grace Meng,D+16,Solid D,-3
+NY-07,Nydia Vel zquez,D+38,Solid D,-3
+NY-08,Hakeem Jeffries,D+36,Solid D,-3
+NY-09,Yvette Clarke,D+34,Solid D,-3
+NY-10,Jerrold Nadler,D+26,Solid D,-3
+NY-12,Carolyn Maloney,D+31,Solid D,-3
+NY-13,Adriano Espaillat,D+43,Solid D,-3
+NY-14,Open,D+29,Solid D,-3
+NY-15,Jos‚ Serrano,D+44,Solid D,-3
+NY-16,Eliot Engel,D+24,Solid D,-3
+NY-17,Nita Lowey,D+7,Solid D,-3
+NY-18,Sean Maloney,R+1,Solid D,-3
+NY-20,Paul Tonko,D+7,Solid D,-3
+NY-25,Vacant,D+8,Solid D,-3
+NY-26,Brian Higgins,D+11,Solid D,-3
+OH-03,Joyce Beatty,D+19,Solid D,-3
+OH-09,Marcy Kaptur,D+14,Solid D,-3
+OH-11,Marcia Fudge,D+32,Solid D,-3
+OH-13,Tim Ryan,D+7,Solid D,-3
+OR-01,Suzanne Bonamici,D+9,Solid D,-3
+OR-03,Earl Blumenauer,D+24,Solid D,-3
+OR-04,Peter DeFazio,EVEN,Solid D,-3
+OR-05,Kurt Schrader,EVEN,Solid D,-3
+PA-02,Brendan Boyle,D+25,Solid D,-3
+PA-03,Dwight Evans,D+41,Solid D,-3
+PA-04,Open,D+7,Solid D,-3
+PA-18,Michael Doyle,D+13,Solid D,-3
+RI-01,David Cicilline,D+14,Solid D,-3
+RI-02,Jim Langevin,D+6,Solid D,-3
+SC-06,James Clyburn,D+20,Solid D,-3
+TN-05,Jim Cooper,D+7,Solid D,-3
+TN-09,Steve Cohen,D+28,Solid D,-3
+TX-09,Al Green,D+29,Solid D,-3
+TX-15,Vicente Gonzalez,D+7,Solid D,-3
+TX-16,Open,D+17,Solid D,-3
+TX-18,Sheila Jackson Lee,D+27,Solid D,-3
+TX-20,Joaquin Castro,D+10,Solid D,-3
+TX-28,Henry Cuellar,D+9,Solid D,-3
+TX-29,Open,D+19,Solid D,-3
+TX-30,Eddie Johnson,D+29,Solid D,-3
+TX-33,Marc Veasey,D+23,Solid D,-3
+TX-34,Filemon Vela,D+10,Solid D,-3
+TX-35,Lloyd Doggett,D+15,Solid D,-3
+VA-03,Bobby Scott,D+16,Solid D,-3
+VA-04,Donald McEachin,D+10,Solid D,-3
+VA-08,Rep. Don Beyer,D+21,Solid D,-3
+VA-11,Gerald Connolly,D+15,Solid D,-3
+VT-00,Peter Welch,D+15,Solid D,-3
+WA-01,Suzan DelBene,D+6,Solid D,-3
+WA-02,Rick Larsen,D+10,Solid D,-3
+WA-06,Derek Kilmer,D+6,Solid D,-3
+WA-07,Pramila Jayapal,D+33,Solid D,-3
+WA-09,Adam Smith,D+21,Solid D,-3
+WA-10,Denny Heck,D+5,Solid D,-3
+WI-02,Mark Pocan,D+18,Solid D,-3
+WI-03,Ron Kind,EVEN,Solid D,-3
+WI-04,Gwen Moore,D+25,Solid D,-3
+AL-01,Bradley Byrne,R+15,Solid R,3
+AL-02,Martha Roby,R+16,Solid R,3
+AL-03,Mike Rogers,R+16,Solid R,3
+AL-04,Robert Aderholt,R+30,Solid R,3
+AL-05,Mo Brooks,R+18,Solid R,3
+AL-06,Gary Palmer,R+26,Solid R,3
+AR-01,Eric Crawford,R+17,Solid R,3
+AR-03,Steve Womack,R+19,Solid R,3
+AR-04,Bruce Westerman,R+17,Solid R,3
+AZ-04,Paul Gosar,R+21,Solid R,3
+AZ-05,Andy Biggs,R+15,Solid R,3
+AZ-08,Debbie Lesko,R+13,Solid R,3
+CA-01,Doug LaMalfa,R+11,Solid R,3
+CA-08,Paul Cook,R+9,Solid R,3
+CA-22,Devin Nunes,R+8,Solid R,3
+CA-23,Kevin McCarthy,R+14,Solid R,3
+CA-42,Ken Calvert,R+9,Solid R,3
+CO-04,Open,R+13,Solid R,3
+CO-05,Doug Lamborn,R+14,Solid R,3
+FL-01,Matt Gaetz,R+22,Solid R,3
+FL-02,Neal Dunn,R+18,Solid R,3
+FL-03,Ted Yoho,R+9,Solid R,3
+FL-04,John Rutherford,R+17,Solid R,3
+FL-08,Bill Posey,R+11,Solid R,3
+FL-11,Daniel Webster,R+15,Solid R,3
+FL-12,Gus Bilirakis,R+8,Solid R,3
+FL-17,Open,R+13,Solid R,3
+FL-19,Francis Rooney,R+13,Solid R,3
+GA-01,Buddy Carter,R+9,Solid R,3
+GA-03,Drew Ferguson,R+18,Solid R,3
+GA-08,Austin Scott,R+15,Solid R,3
+GA-09,Doug Collins,R+31,Solid R,3
+GA-10,Jody Hice,R+15,Solid R,3
+GA-11,Barry Loudermilk,R+17,Solid R,3
+GA-12,Rick Allen,R+9,Solid R,3
+GA-14,Tom Graves,R+27,Solid R,3
+ID-01,Open,R+21,Solid R,3
+ID-02,Mike Simpson,R+17,Solid R,3
+IL-15,John Shimkus,R+21,Solid R,3
+IL-16,Adam Kinzinger,R+8,Solid R,3
+IL-18,Darin LaHood,R+15,Solid R,3
+IN-03,Jim Banks,R+18,Solid R,3
+IN-04,Open,R+17,Solid R,3
+IN-05,Susan Brooks,R+9,Solid R,3
+IN-06,Open,R+18,Solid R,3
+IN-08,Larry Bucshon,R+15,Solid R,3
+IN-09,Trey Hollingsworth,R+13,Solid R,3
+KS-01,Roger Marshall,R+24,Solid R,3
+KS-04,Ron Estes,R+15,Solid R,3
+KY-01,James Comer,R+23,Solid R,3
+KY-02,Brett Guthrie,R+19,Solid R,3
+KY-04,Thomas Massie,R+18,Solid R,3
+KY-05,Harold Rogers,R+31,Solid R,3
+LA-01,Steve Scalise,R+24,Solid R,3
+LA-03,Clay Higgins,R+20,Solid R,3
+LA-04,Mike Johnson,R+13,Solid R,3
+LA-05,Ralph Abraham,R+15,Solid R,3
+LA-06,Garret Graves,R+19,Solid R,3
+MD-01,Andy Harris,R+14,Solid R,3
+MI-02,Bill Huizenga,R+9,Solid R,3
+MI-04,John Moolenaar,R+10,Solid R,3
+MI-10,Paul Mitchell,R+13,Solid R,3
+MN-06,Tom Emmer,R+12,Solid R,3
+MO-03,Blaine Luetkemeyer,R+18,Solid R,3
+MO-04,Vicky Hartzler,R+17,Solid R,3
+MO-06,Sam Graves,R+16,Solid R,3
+MO-07,Billy Long,R+23,Solid R,3
+MO-08,Jason Smith,R+24,Solid R,3
+MS-01,Trent Kelly,R+16,Solid R,3
+MS-03,Open,R+13,Solid R,3
+MS-04,Steven Palazzo,R+21,Solid R,3
+NC-03,Walter Jones,R+12,Solid R,3
+NC-05,Virginia Foxx,R+10,Solid R,3
+NC-06,Mark Walker,R+9,Solid R,3
+NC-07,David Rouzer,R+9,Solid R,3
+NC-10,Patrick McHenry,R+13,Solid R,3
+NC-11,Mark Meadows,R+14,Solid R,3
+ND-00,Open,R+16,Solid R,3
+NE-01,Jeff Fortenberry,R+11,Solid R,3
+NE-03,Adrian Smith,R+27,Solid R,3
+NJ-04,Christopher Smith,R+8,Solid R,3
+NV-02,Mark Amodei,R+7,Solid R,3
+NY-23,Tom Reed,R+6,Solid R,3
+OH-02,Brad Wenstrup,R+9,Solid R,3
+OH-04,Jim Jordan,R+14,Solid R,3
+OH-05,Robert Latta,R+11,Solid R,3
+OH-06,Bill Johnson,R+16,Solid R,3
+OH-07,Bob Gibbs,R+12,Solid R,3
+OH-08,Warren Davidson,R+17,Solid R,3
+OH-15,Steve Stivers,R+7,Solid R,3
+OH-16,Open,R+8,Solid R,3
+OK-01,Open,R+17,Solid R,3
+OK-02,Markwayne Mullin,R+24,Solid R,3
+OK-03,Frank Lucas,R+27,Solid R,3
+OK-04,Tom Cole,R+20,Solid R,3
+OK-05,Steve Russell,R+10,Solid R,3
+OR-02,Greg Walden,R+11,Solid R,3
+PA-09,Open,R+14,Solid R,3
+PA-11,Lloyd Smucker,R+14,Solid R,3
+PA-12,Tom Marino,R+17,Solid R,3
+PA-13,Open,R+22,Solid R,3
+PA-15,Glenn Thompson,R+20,Solid R,3
+SC-02,Joe Wilson,R+13,Solid R,3
+SC-03,Jeff Duncan,R+19,Solid R,3
+SC-04,Open,R+15,Solid R,3
+SC-05,Ralph Norman,R+9,Solid R,3
+SC-07,Tom Rice,R+9,Solid R,3
+SD-00,Open,R+14,Solid R,3
+TN-01,David Roe,R+28,Solid R,3
+TN-02,Open,R+20,Solid R,3
+TN-03,Charles Fleischmann,R+18,Solid R,3
+TN-04,Scott DesJarlais,R+20,Solid R,3
+TN-06,Open,R+24,Solid R,3
+TN-07,Open,R+20,Solid R,3
+TN-08,David Kustoff,R+19,Solid R,3
+TX-01,Louie Gohmert,R+25,Solid R,3
+TX-03,Open,R+13,Solid R,3
+TX-04,John Ratcliffe,R+28,Solid R,3
+TX-05,Open,R+16,Solid R,3
+TX-06,Open,R+9,Solid R,3
+TX-08,Kevin Brady,R+28,Solid R,3
+TX-10,Michael McCaul,R+9,Solid R,3
+TX-11,Mike Conaway,R+32,Solid R,3
+TX-12,Kay Granger,R+18,Solid R,3
+TX-13,Mac Thornberry,R+33,Solid R,3
+TX-14,Randy Weber,R+12,Solid R,3
+TX-17,Bill Flores,R+12,Solid R,3
+TX-19,Jodey Arrington,R+27,Solid R,3
+TX-25,Roger Williams,R+11,Solid R,3
+TX-26,Michael Burgess,R+18,Solid R,3
+TX-27,Michael Cloud,R+13,Solid R,3
+TX-36,Brian Babin,R+26,Solid R,3
+UT-01,Rob Bishop,R+26,Solid R,3
+UT-02,Chris Stewart,R+16,Solid R,3
+UT-03,John Curtis,R+25,Solid R,3
+VA-01,Robert Wittman,R+8,Solid R,3
+VA-06,Open,R+13,Solid R,3
+VA-09,Morgan Griffith,R+19,Solid R,3
+WA-04,Dan Newhouse,R+13,Solid R,3
+WI-05,Jim Sensenbrenner,R+13,Solid R,3
+WI-07,Sean Duffy,R+8,Solid R,3
+WI-08,Mike Gallagher,R+7,Solid R,3
+WV-01,David McKinley,R+19,Solid R,3
+WV-02,Alex Mooney,R+17,Solid R,3
+WY-00,Liz Cheney,R+25,Solid R,3
