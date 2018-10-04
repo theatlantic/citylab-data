@@ -34,5 +34,5 @@ districts6 <- bind_cols(district_summary, cmeans6$cluster %>% as.character() %>%
 	select(CD, Cluster, everything(), -cluster_number) %>%
 	filter(!is.na(CD)) %>%
 	mutate(Cluster = as.factor(Cluster) %>% fct_relevel("Pure rural", "Rural-suburban mix", "Sparse suburban", "Dense suburban", "Urban-suburban mix", "Pure urban"))
-write_csv(districts6, "data/clustered_districts.csv")
+write_csv(districts6, "citylab_cdi.csv")
 

@@ -48,7 +48,7 @@ census_tracts <- st_read("shapefiles", "tracts", quiet = TRUE) %>% # Read a shap
 		   	density >= 2213 ~ "High density",
 		   	TRUE ~ "NA"),
 		   # For split tracts, `afact` represents the percentage of its land area in each district
-		   # I don't know what afact means; I preserved the term used by MABLE/Geocorr14
+		   # I don't know what afact stands for; I preserved the term used by MABLE/Geocorr14
 		   # Here I calculate weighted population by multiplying population by `afact`
 		   weighted_pop = pop * afact)
 
@@ -68,19 +68,20 @@ district_summary <- census_tracts %>%
 	spread(type, pct, fill = 0) %>% # Spread the population percentage data into columns
 	select(CD, `Very low density`, `Low density`, `Medium density`, `High density`) %>% # Reorder columns
 	# Join data on current occupants of each seat
-	left_join(read_excel("housemembers.xlsx") %>% 
-			  	separate(`State/District`, c("State", "District"), sep = 2) %>%
-			  	mutate(District = ifelse(District == "00", "AL", District),
-			  		   CD = paste0(State, "-", District)) %>%
-			  	select(CD, Party),
-			  by = "CD") %>%
+    left_join(read_excel("data/housemembers.xlsx") %>% 
+                  separate(`State/District`, c("State", "District"), sep = 2) %>%
+                  mutate(District = ifelse(District == "00", "AL", District),
+                         CD = paste0(State, "-", District),
+                         Incumbent = paste0(FirstName, " ", LastName)) %>%
+                  select(CD, Incumbent, Party),
+              by = "CD") %>%
 	# Load in data on presidential election results in district, from Daily Kos data
-	left_join(results <- read_csv("data/Daily Kos Elections results CD.csv", 
-								  col_types = "cc_dddddd", # Select and format certain columns
-								  col_names = c("CD", "Incumbent", "Clinton16", "Trump16", "Obama12", "Romney12", "Obama08", "McCain08"), skip = 2) %>% 
-			  	mutate_if(~ any(is.numeric(.x)),~.x/100), by = "CD") %>% # Convert percentages to decimal format
+    left_join(read_csv("data/Daily Kos Elections results CD.csv", 
+                       col_types = "c__dddddd", # Select and format certain columns
+                       col_names = c("CD", "Clinton16", "Trump16", "Obama12", "Romney12", "Obama08", "McCain08"), skip = 2) %>% 
+                  mutate_if(~ any(is.numeric(.x)),~.x/100), by = "CD") %>% # Convert percentages to decimal format
 	# Load in data on 2016 congressional results by district
-	left_join(read_excel("federalelections2016.xlsx", sheet = 13) %>%
+	left_join(read_excel("data/federalelections2016.xlsx", sheet = 13) %>%
 			  	filter(!is.na(`GENERAL VOTES`), is.na(`TOTAL VOTES`), !str_detect(D, "UNEXPIRED")) %>%
 			  	mutate(CD = paste0(`STATE ABBREVIATION`, "-", D)) %>%
 			  	select(CD, PARTY, `GENERAL %`) %>%
@@ -93,13 +94,16 @@ district_summary <- census_tracts %>%
 			  by = "CD") %>%
 	# Load in data on Cook Political Report race ratings
 	left_join(read_csv("data/cook.csv") %>%
-			  	mutate(PVI = case_when(str_detect(PVI, "D") ~ str_remove(PVI, "D+") %>% as.numeric() * -1,
-			  						   str_detect(PVI, "R") ~ str_remove(PVI, "R+") %>% as.numeric(),
-			  						   str_detect(PVI, "EVEN") ~ 0)) %>% 
+	              mutate(PVI = case_when(str_detect(PVI, "D") ~ str_remove(PVI, "D+") %>% as.numeric() * -1,
+	                                     str_detect(PVI, "R") ~ str_remove(PVI, "R+") %>% as.numeric(),
+	                                     str_detect(PVI, "EVEN") ~ 0),
+	                     CD = str_replace_all(CD, "-00", "-AL")) %>% 
 			  	select(-Incumbent), by = "CD") %>%
 	# Calculate competitive races: Any race that's not "Safe"
 	mutate(is_competitive_cook = case_when(
-		cook_score %in% c(-2, 0, 2) ~ 1,
+		cook_score %in% c(-2:2) ~ 1,
+		cook_score <0 & Party == "R" ~ 1,
+		cook_score >0 & Party == "D" ~ 1,
 		TRUE ~ 0
 	)) %>% 
 	# Add in FiveThirtyEight's election predictions
