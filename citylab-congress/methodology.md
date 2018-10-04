@@ -5,7 +5,7 @@ Methodology
 
 CityLab has unveiled a new model for understanding congressional districts in terms of density, the CityLab Congressional Density Index (CDI). This model classifies every congressional district by the density of its neighborhoods using a machine-learning algorithm.
 
-This article explains how we calculated the model. You can download our classification for each congressional district [here](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv), and download the R code used to calculate the model [here](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress).
+This article explains how we calculated the model. You can download our classification for each congressional district [here](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv) (plus the [column layout](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/cdi_columns.md)), and download the R code used to calculate the model [here](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress).
 
 The premise: start with Census tracts
 -------------------------------------
@@ -179,7 +179,7 @@ Rural-suburban
 </tr>
 <tr>
 <td style="text-align:left;">
-Low-density suburban
+Sparse suburban
 </td>
 <td style="text-align:left;">
 12.2%
@@ -199,7 +199,7 @@ Low-density suburban
 </tr>
 <tr>
 <td style="text-align:left;">
-High-density suburban
+Dense suburban
 </td>
 <td style="text-align:left;">
 5.2%
@@ -259,13 +259,13 @@ Pure urban
 </tr>
 </tbody>
 </table>
-Because it's "fuzzy," the algorithm tells us how confident it is that a given district belongs in its category. Many are clear and decisive. For example, Nebraska's 3rd District was given a 97.5 percent chance of being "pure rural," while Illinois' 4th District had a 99.8 percent chance of being "pure urban."
+Because it's "fuzzy," the algorithm tells us how confident it is that a given district belongs in its category. Many are clear and decisive. For example, Nebraska's 3rd District has a 97.5 percent resemblance to the "pure rural" cluster, while Illinois' 4th District had a 99.8 percent resemblance to "pure urban."
 
-Others were more ambiguous. Minnesota's 3rd District, for example, was categorized as "Low-density suburban," but the algorithm put it there with a 52.5 percent confidence. There was a 26.5 percent chance that the 3rd District was actually a better fit for "High-density suburban," plus minor odds for other district types. That's because Minnesota's 3rd District's high percentage of medium-density neighborhoods matched other "High-density suburban" districts — but its low share of high-density neighborhoods and moderate share of low-density neighborhoods were closer to "Low-density suburban" districts.
+Others were more ambiguous. Minnesota's 3rd District, for example, was categorized as "sparse suburban," but it had only a 52.5 percent resemblance. It also had a 26.5 percent resemblance to "dense suburban," plus minor odds for other district types. That's because Minnesota's 3rd District's abundance of medium-density neighborhoods matched other "dense suburban" districts — but its small share of high-density neighborhoods and moderate share of low-density neighborhoods were closer to "sparse suburban" districts.
 
 Running the c-means clustering algorithm over and over again produced slightly different results for some districts on the edge between two different clusters. But the big picture was remarkably consistent.
 
-We've chosen to report each district as belonging to a single category, as sorted by the c-means algorithm. But our [full data](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/clustered_districts.csv) contains each district's resemblance scores for each cluster, for those who want to be more attuned to uncertainty.
+We've chosen to report each district as belonging to a single category, as sorted by the c-means algorithm. But our [full data](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/clustered_districts.csv) contains each district's resemblance scores for each cluster, for those who want to be more attuned to uncertainty. (Reference the [column layout](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/cdi_columns.md) as a guide.)
 
 Political analysis
 ------------------
