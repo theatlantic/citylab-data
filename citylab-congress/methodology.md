@@ -1,11 +1,11 @@
 Methodology
 ================
-David H. Montgomery
-10/3/2018
 
-CityLab has unveiled a new model for understanding congressional districts in terms of density, the CityLab Congressional Typology. This model classifies every congressional district by the density of its neighborhoods using a machine-learning algorithm.
+#### By David H. Montgomery
 
-This article explains how we calculated the model. You can download our classification for each congressional district [here](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/clustered_districts.csv), and download the R code used to calculate the model [here](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress).
+CityLab has unveiled a new model for understanding congressional districts in terms of density, the CityLab Congressional Density Index (CDI). This model classifies every congressional district by the density of its neighborhoods using a machine-learning algorithm.
+
+This article explains how we calculated the model. You can download our classification for each congressional district [here](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv), and download the R code used to calculate the model [here](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress).
 
 The premise: start with Census tracts
 -------------------------------------
@@ -274,4 +274,4 @@ With every district now classified according to its density, we brought in data 
 
 This enabled us to identify the thrust of our main story introducing the model \[LINK\]: that Republican-held seats in predominantly suburban districts are disproportionately competitive this year.
 
-But we also believe there are other insights that can be drawn from this way of looking at congressional districts. Some of those we hope to write ourselves over the next month here at CityLab. But we also hope other people will find this a useful tool for their own analyses. So take a look at the [full data](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/clustered_districts.csv) and [code](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress)! If you have any questions, [email me](mailto:dmontgomery@citylab.com) or reach out [on Twitter](twitter.com/dhmontgomery).
+But we also believe there are other insights that can be drawn from this way of looking at congressional districts. Some of those we hope to write ourselves over the next month here at CityLab. But we also hope other people will find this a useful tool for their own analyses. So take a look at the [full data](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv) and [code](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress)! If you have any questions, [email me](mailto:dmontgomery@citylab.com) or reach out [on Twitter](twitter.com/dhmontgomery).
