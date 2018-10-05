@@ -72,7 +72,7 @@ district_summary <- census_tracts %>%
                   separate(`State/District`, c("State", "District"), sep = 2) %>%
                   mutate(District = ifelse(District == "00", "AL", District),
                          CD = paste0(State, "-", District),
-                         Incumbent = paste0(FirstName, " ", LastName)) %>%
+                         Incumbent = paste0(FirstName, " ", LastName) %>% str_replace_all("NA NA", "Vacant")) %>%
                   select(CD, Incumbent, Party),
               by = "CD") %>%
 	# Load in data on presidential election results in district, from Daily Kos data
