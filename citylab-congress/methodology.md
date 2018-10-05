@@ -5,6 +5,8 @@ Methodology
 
 CityLab has unveiled a new model for understanding congressional districts in terms of density, the CityLab Congressional Density Index (CDI). This model classifies every congressional district by the density of its neighborhoods using a machine-learning algorithm.
 
+I wrote about the takeaway from the model with Richard Florida [here](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/), including graphics and an interactive. 
+
 This article explains how we calculated the model. You can download our classification for each congressional district [here](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv) (plus the [column layout](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/cdi_columns.md)), and download the R code used to calculate the model [here](https://github.com/theatlantic/citylab-data/tree/master/citylab-congress).
 
 The premise: start with Census tracts
