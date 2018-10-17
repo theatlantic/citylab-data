@@ -8,7 +8,7 @@ To learn more about the CDI, read our [methodology](https://github.com/theatlant
 
 This repository contains all the code and data you need to reproduce our work. Of particular note:
 
-- [`citylab_cdi.csv`](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv) contains the most recent classifications of each district. The column layout is specified in [`citylab_columns.md`](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_columns.md).
+- [`citylab_cdi.csv`](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv) contains the most recent classifications of each district. The column layout is specified in [`citylab_columns.md`](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/cdi_columns.md).
 - `district_class.R` is an R script that will calculate the neighborhood density makeup of each congressional district. (It relies on a variety of spreadsheets in the `data` folder, so you'll want to preserve the folder structure of this repository if you download and run it.)
 - `cluster_analysis.R` is an R script that takes the output of `district_class.R` and performs a c-means clustering algorithm on it, grouping districts into distinct categories based on their neighborhood makeup.
 - The `shapefiles` folder contains a shapefile with every Census tract in the United States (not counting territories). This is necessary for `district_class.R` to run (so preserve folder structure), but might also be useful for other analyses!
