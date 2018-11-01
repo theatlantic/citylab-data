@@ -89,7 +89,7 @@ Dealing with split tracts
 
 Though most Census tracts are located within a single congressional district, around 5,000 of the country's more than 72,000 tracts are substantially split between two or more different districts. We used [a file](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/split_tracts.csv) from the Missouri Census Data Center's [MABLE/Geocorr14 tool](http://mcdc.missouri.edu/websas/geocorr14.html) that calculated the percentage of each tract's land area within each congressional district. Later on in the process, we multiply the tract's total population by this percent to calculate a rough estimate of the number of people in each congressional district by tract.
 
-There was one problem with the MABLE/Geocorr14 database: it was based on congressional districts as drawn earlier in the decade. As such, it didn't account for the new congressional district boundaries in effect for 2018 in Pennsylvania. We used a custom R script to calculate similar percentages for the split tracts in Pennsylvania.
+There was one problem with the MABLE/Geocorr14 database: it was based on congressional districts as drawn earlier in the decade. As such, it didn't account for the new congressional district boundaries in effect for 2018 in Pennsylvania. We used a custom R script to calculate similar percentages for the split tracts in Pennsylvania. **The data here does account for Pennsylvania's new 2018 maps for its classifications, though incumbents and incumbent parties are identified based on who holds the district in its current boundaries.**
 
 Aggregating to congressional districts
 --------------------------------------
