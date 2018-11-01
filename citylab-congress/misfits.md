@@ -13,6 +13,8 @@ falls](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-vot
 
 The way the model classified districts was through "[fuzzy C-means clustering](https://en.wikipedia.org/wiki/Fuzzy_clustering#Fuzzy_C-means_clustering)," a type of machine learning in which an algorithm compares data points and groups them into categories with similar characteristics. In this case, the characteristics the C-means algorithm looked at were each district's percentage of very-low-density, low-density, medium-density and high-density neighborhoods. Districts with similar proportions of each tended to end up in the same category.
 
+See more about the model's methodology [here](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/methodology.md).
+
 Overall, the model matches up well with common sense, and is pretty
 confident about how it classifies most districts. The typical district
 was about a 69% match with its assigned category.
