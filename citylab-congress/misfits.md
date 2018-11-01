@@ -302,8 +302,7 @@ Pure urban
 
 </table>
 
-But with 435 districts, there were inevitably several districts that
-didn’t fit the trends. In part that reflects a limitation of C-means clustering: it doesn't know what the categories it looks at mean; they're just numbers in a database. So a district that contains unusual combinations of neighborhoods — big rural and urban populations in the same district, or lots of dense suburbs combined with lots of rural residents — it can get confused.
+But with 435 districts, there were inevitably several districts that didn’t fit the trends. In part that reflects a limitation of C-means clustering: it doesn't know what the categories it looks at mean; they're just numbers in a database. So a district that contains unusual combinations of neighborhoods — big rural and urban populations in the same district, or lots of dense suburbs combined with lots of rural residents — it can get confused.
 
 Here are nine congressional districts that fall in between:
 
