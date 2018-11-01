@@ -11,6 +11,8 @@ neighborhoods and urban and suburban neighborhoods.
 where your district
 falls](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/).
 
+The way the model classified districts was through "[fuzzy C-means clustering](https://en.wikipedia.org/wiki/Fuzzy_clustering#Fuzzy_C-means_clustering)," a type of machine learning in which an algorithm compares data points and groups them into categories with similar characteristics. In this case, the characteristics the C-means algorithm looked at were each district's percentage of very-low-density, low-density, medium-density and high-density neighborhoods. Districts with similar proportions of each tended to end up in the same category.
+
 Overall, the model matches up well with common sense, and is pretty
 confident about how it classifies most districts. The typical district
 was about a 69% match with its assigned category.
@@ -301,9 +303,9 @@ Pure urban
 </table>
 
 But with 435 districts, there were inevitably several districts that
-didn’t fit the trends. Here are nine congressional districts that fall
-in
-between:
+didn’t fit the trends. In part that reflects a limitation of C-means clustering: it doesn't know what the categories it looks at mean; they're just numbers in a database. So a district that contains unusual combinations of neighborhoods — big rural and urban populations in the same district, or lots of dense suburbs combined with lots of rural residents — it can get confused.
+
+Here are nine congressional districts that fall in between:
 
 ### 1\. [Nevada’s Second District](https://en.wikipedia.org/wiki/Nevada%27s_2nd_congressional_district)
 
