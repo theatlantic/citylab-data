@@ -6,7 +6,7 @@ Read more about what this data shows about America's political geography in this
 
 The spreadsheet `2010_districts.csv` contains each pre-2010 congressional district, its classification, and other data. Below is a map showing those districts, with those gained by Republicans in the 2010 election highlighted:
 
-[IMAGE]
+![CityLab CDI 2010 map with GOP pickups](https://raw.githubusercontent.com/theatlantic/citylab-data/master/citylab-congress/2010-districts/map.png)
 
 Here is a guide to the column layout of `2010_districts.csv`:
 
