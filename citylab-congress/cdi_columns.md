@@ -1,6 +1,6 @@
 ## Column layout for CityLab CDI
 
-The full results of the CityLab Congressional Density Index are contained in the spreadsheet [`citylab_cdi.csv`](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv). Here is a schematic for the columns in that spreadsheet:
+The full results of the CityLab Congressional Density Index are contained in the spreadsheet [`citylab_cdi_extended.csv`](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/citylab_cdi.csv). Here is a schematic for the columns in that spreadsheet:
 
 - `CD`: The name of the congressional district, in the form of each state's two-letter abbreviation, a dash, and the two-digit number of the district. Statewide at-large districts are referred to as `-AL` (not `-00` or `-01`, as some use).
 - `Cluster`: The CDI classification based on the district's makeup of neighborhoods.
