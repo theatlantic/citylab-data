@@ -4,7 +4,7 @@
 
 We're releasing the full results — and the code used to produce the Congressional Density Index — to the public. The code is released under the [MIT License](https://github.com/theatlantic/citylab-data/blob/master/LICENSE), and the data under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. You're free to use and modify this work, provided you attribute the CityLab Congressional Density Index, and maintain a similar license on your use of the CDI. 
 
-To learn more about the CDI, read our [methodology](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/methodology.md). You can also read the CityLab article by David Montgomery and Richard Florida introducing the preliminary findings: that Republican-held suburban seats are in particular danger in the 2018 congressional elections.
+To learn more about the CDI, read our [methodology](https://github.com/theatlantic/citylab-data/blob/master/citylab-congress/methodology.md). You can also read the [CityLab article by David Montgomery and Richard Florida](https://www.citylab.com/equity/2018/10/midterm-election-data-suburban-voters/572137/) introducing the preliminary findings: that Republican-held suburban seats are in particular danger in the 2018 congressional elections.
 
 This repository contains all the code and data you need to reproduce our work. Of particular note:
 
