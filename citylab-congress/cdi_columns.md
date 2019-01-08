@@ -8,8 +8,9 @@ The full results of the CityLab Congressional Density Index are contained in the
 - `Low density`: The percentage of that district's population living in "low density" neighborhoods with between 102 and 799 households per square mile.
 - `Medium density`: The percentage of that district's population living in "medium density" neighborhoods with between 800 and 2,213 households per square mile.
 - `High density`: The percentage of that district's population living in "high density" neighborhoods with more than 2,213 households per square mile.
-- `Party`: The political party of the current (as of October 2018) occupant of the seat
-- `Incumbent`: The current (as of October 2018) occupant of the seat
+- `Pre-2018 incumbent`: The occupant of the seat as of October 2018.
+- `Pre-2018 party`: The political party of the occupant of the seat as of October 2018.
+- `2018 winner party`: The political party of the candidate who won this seat in 2018.
 - `Clinton16`: The percent of the vote received in the 2016 presidential election by Democratic candidate Hillary Clinton.
 - `Trump16`: The percent of the vote received in the 2016 presidential election by Republican candidate Donald Trump.
 - `Obama12`: The percent of the vote received in the 2012 presidential election by Democratic candidate Barack Obama.
