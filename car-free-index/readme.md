@@ -9,4 +9,4 @@ The index looks at four variables, all from the U.S. Census's most recent five-y
 - the share of commuters who bike to work
 - the share of commuters who walk to work
 
-The CSV file `car-free-index.csv` contains data for all 382 U.S. metropolitan and micropolitan areas, from Carson City, Nevada all the way up to New York, New York. A higher value on the index indicates more people relying on means other than cars to get around. 
+The spreadsheet file [`car-free-index.csv`](https://github.com/theatlantic/citylab-data/blob/master/car-free-index/car-free-index.csv) contains data for all 382 U.S. metropolitan and micropolitan areas, from Carson City, Nevada all the way up to New York, New York. A higher value on the index indicates more people relying on means other than cars to get around. 
