@@ -1,6 +1,6 @@
 ## Best Cities for Urbanists
 
-The spreadsheet `best_cities_for_urbanists.csv` contains data for Richard Florida's CityLab story, "The Best Places for Urbanists."
+The spreadsheet [`best_cities_for_urbanists.csv`](https://github.com/theatlantic/citylab-data/blob/master/richard-florida-data/best-cities-for-urbanists/best_cities_for_urbanists.csv) contains data for Richard Florida's CityLab story, "The Best Places for Urbanists."
 
 The spreadsheet's layout is as follows:
 
